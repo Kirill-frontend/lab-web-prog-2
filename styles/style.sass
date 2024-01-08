@@ -1,0 +1,207 @@
+$var1: #2c2c2c
+$var2: #4d4dff
+$var3: #979797
+$var4: #1f1f1f
+$var5: #000000
+$var6: #ff4500
+$var7: #32cd32
+$var8: #ff8c00
+$var9: #ff1493
+$var10: #ff69b4
+$var11: #7cfc00
+$var12: #9370db
+$var13: #1e90ff
+$var14: #00bfff
+$var15: #1212ff
+$var16: #ffffff
+$var17: #727070
+$outer-sm: 0.5rem
+$outer-md: 1rem
+$outer-lg: 2rem
+$outer-xl: 3rem
+$b-color: beige
+$p-chr: $var7
+$p-kw: $var8
+$p-func: $var9
+$p-self: $var10
+$p-str: $var11
+$p-prt: $var12
+$p-name: $var13
+$p-int: $var14
+$p-chr: #32cd32
+$p-kw: #ff8c00
+$p-func: #ff1493
+$p-self: #ff69b4
+$p-str: #7cfc00
+$p-prt: #9370db
+$p-name: #1e90ff
+$p-int: #00bfff
+
+
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+body 
+  font-family: Roboto 
+  color: $b-color
+  background: $var1
+
+  height: 100vh
+
+
+ul 
+  list-style: none
+
+
+#navbar 
+  display: flex
+  justify-content: center
+  background: $var2
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.4)
+  padding-top: $outer-md
+  padding: 0 20px 0 20px
+
+
+#avatar 
+  height: $outer-xl
+
+
+#name 
+    font-family: "Cinzel", serif
+    font-size: $outer-lg
+    font-weight: bold
+    letter-spacing: 0.13rem
+
+
+#logo-items 
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-align: center
+  padding: 10px 0 10px 0
+
+
+.nav-link 
+    color: $b-color
+    text-decoration: none
+
+
+#menu-items 
+  display: flex
+
+  
+#menu-items a 
+  font-size: 0.7rem
+  letter-spacing: 0.2rem
+  display: flex
+  height: 100%
+  align-items: center
+  padding: 0 10px
+
+
+#menu-items a:hover 
+  background-color: #1212ff
+
+
+
+* 
+ margin: 0
+ padding: 0
+ box-sizing: border-box
+
+body 
+ font-family: Roboto
+ color: $b-color
+ background: $var1
+ height: 100vh
+
+ul 
+ list-style: none
+
+#navbar 
+ display: flex
+ flex-wrap: wrap
+ justify-content: center
+ background: $var2
+ box-shadow: 0 5px 0 rgba(0, 0, 0, 0.4)
+ padding-top: $outer-md
+
+#avatar 
+ height: $outer-xl
+
+#name 
+ font-family: "Cinzel", serif
+ font-size: var(--outer-lg)
+ font-weight: bold
+ letter-spacing: 0.13rem
+
+#logo-items 
+ display: flex
+ flex-direction: column
+ align-items: center
+ text-align: center
+
+.nav-link 
+  color: $b-color
+  text-decoration: none
+
+#menu-items 
+ display: flex
+ a 
+  font-size: 0.7rem
+  letter-spacing: 0.2rem
+  display: flex
+  height: 100%
+  align-items: center
+  padding: 0 10px
+  &:hover 
+    background-color: $var15
+  
+
+
+
+#navbar 
+ justify-content: space-between
+ flex-wrap: no-wrap
+ padding-top: 0
+
+.container 
+ max-width: 1024px
+ margin: 0 auto
+
+section 
+ background-color: $var16
+ color: $var5
+ margin: 10px 0
+ border-radius: 20px
+ padding: 10px 20px
+
+#avatar 
+ border-radius: 50%
+
+.title_section h1 
+ margin: 0 0 10px 0
+
+.section_paragraph 
+ color: $var17
+
+#main_information 
+ display: flex
+ align-items: center
+ justify-content: space-between
+
+.link-without-styles 
+ text-decoration: none
+ color: $var16
+
+.wh100 
+ width: 100%
+ height: 100%
+
+.wh100px 
+ width: 100px
+ height: 100px
+
